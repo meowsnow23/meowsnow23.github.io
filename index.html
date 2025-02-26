@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Background with Glassy Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black; /* Solid black background */
+            color: white; /* White text for contrast */
+        }
+
+        .content {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            backdrop-filter: blur(10px); /* Glassy blur effect */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0 0 10px 0; /* Spacing below the title */
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            margin: 0 0 20px 0; /* Spacing below the subtitle */
+            color: rgba(255, 255, 255, 0.8); /* Slightly transparent subtitle */
+        }
+
+        button {
+            margin: 10px;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent button */
+            color: white;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Brighter semi-transparent on hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        button:active {
+            transform: scale(0.95); /* Slight shrink effect on click */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Snowballs website</h1>
+        <h2>pick whatever button you want</h2>
+        <a href="WD/index.html">
+            <button class="button">WD (idk if you want)</button>
+        </a>
+
+    </div>
+
+</body>
+</html>
